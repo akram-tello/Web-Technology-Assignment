@@ -47,6 +47,17 @@
   z-index: 1;
 }
 
+/* nav-link */
+.nav-link {
+  color: white !important;
+  text-decoration: none;
+}
+
+/* pointer */
+.pointer {
+  cursor: pointer;
+}
+
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
