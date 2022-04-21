@@ -1,0 +1,180 @@
+body
+{
+    background-color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+  }
+header
+{
+    background-color: rgb(49 71 181);
+    padding: 20px;
+    border: 1px solid black;
+    height: 450px;
+}
+header h1
+{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+#personal
+{
+    padding: 10px;
+}
+#personal img{
+    height: 300px;
+    float: left;
+}
+#personal h2{
+    color: white; margin-left: 250px;  
+}
+#personal p{
+    color: white; margin-left: 250px;  
+    margin-top: 30px;
+    line-height: 2;
+}
+#personal ul li{
+    color: white; margin-left: 250px;  
+    line-height: 1.5;
+}
+#personal a{
+    color: white;
+    margin-left: 10px;
+}
+#like-section
+{
+    content: "";
+    margin-top: 20px;
+    background: #eae9e9;
+    padding: 10px;
+}
+#like-section h1
+{
+    text-align: center;
+    color: rgb(49 71 181);
+}
+
+#like-section .card
+{
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+  height: 270px;
+  margin: 20px;
+  background-color: white;
+}
+
+#like-section .card h3{
+    margin-left: 400px;
+    color: rgb(49 71 181);
+}
+#like-section .card p
+{
+    margin: 30px 40px 40px 400px;
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+
+#like-section .card:hover
+{
+    border: 1px solid rgb(49 71 181);
+}
+#goal-section
+{
+    margin-top: 20px;
+}
+#goal-section h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(49 71 181);
+}
+#goal-section h2
+{
+    color: white;
+    text-transform: uppercase;
+}
+#goal-section p
+{
+    color: white;
+    line-height: 1.5;
+    text-align: justify;
+}
+#goal-section .btn
+{
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    color: rgb(49 71 181);
+}
+#column {
+    float: left;
+    width: 31%;
+    margin: 14px;
+    background: rgb(49 71 181);
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    height: 520px;
+  }
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#contact
+{
+    padding: 30px 20px 30px 20px;
+    background: #eae9e9;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#contact h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(49 71 181);
+}
+input
+{
+    padding: 10px 50px 10px 10px;
+    margin: 2px;
+}
+#gender
+{
+    padding: 10px 70px 10px 75px;
+}
+#form
+{
+    padding: 40px;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: white;
+    
+    margin-right: 350px;
+    margin-top: 30px;
+    margin-left: 330px;
+}
+label{
+    line-height: 1.5;
+}
+#btn-submit
+{
+    padding: 15px 50px 15px 50px;
+    background: rgb(49 71 181);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+#social {
+    margin-top: 30px;
+}
+
+#social a{
+    margin: 20px 10px;
+}
