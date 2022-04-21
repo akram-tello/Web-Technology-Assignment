@@ -3,6 +3,12 @@
   background-color: rgb(59, 84, 165);
   overflow: hidden;
 }
+.dev-call-action {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  margin-top: 2rem;
+}
 
 /* Links inside the navbar */
 .navbar a {
